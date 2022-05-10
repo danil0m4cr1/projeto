@@ -126,16 +126,21 @@ body {
     color: #000000be;
 }
 
+.gender-group-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .gender-group {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     margin-top: 0.62rem;
     padding: 0 0.5rem;
 }
 
 .gender-input {
     display: flex;
-    align-items: center;
+    margin-top: 10px;
 }
 
 .gender-input input {
